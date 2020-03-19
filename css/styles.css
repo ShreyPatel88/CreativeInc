@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 *{
+    font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,20 +35,23 @@ img{
     font-size: .6rem;
     height: auto;
     margin-top: -250px;
-    font-family: 'Montserrat:900';
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 3.3px;
 }
 
 .title span{
-    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     display: block;
-    font-size: .5em;
+    font-size: .4em;
+    margin-top: 5px;
     
 }
 
 /* button */
 
 .button{
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     z-index: 2;
     text-decoration: none;
@@ -55,6 +59,7 @@ img{
     padding: 5px 20px;
     border-style: solid;
     border-radius: 100px 100px 100px 100px;    
+    transition: all ease 500ms;
 }
 
 .button-accent{
@@ -65,7 +70,6 @@ img{
 .button-accent:focus{
     background: aqua;
     color: rgb(0, 0, 0);
-    font-size: smaller;
 }
      
 @media (max-width:00px){
@@ -78,7 +82,6 @@ img{
 @media (min-width:00px){
     .title{
         font-size: 35px;
-    
     }
 }
 
@@ -100,13 +103,11 @@ header{
 }
 
 nav ul{
-    
     list-style: none;
     margin-top: -30px;
-    
     padding: 0;
     text-transform: uppercase; 
-    font-family: 'Montserrat:900';
+    font-family: 'Montserrat', sans-serif;
 }
 
 nav li {
@@ -116,7 +117,8 @@ nav li {
 }
 
 nav a {
-    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
     padding: 10px;
     margin: inherit;
     font-size: .50em;
@@ -138,12 +140,10 @@ nav a:focus{
 
 .home-hero{
     background-image: url(../css/leaf.jpg);
-    
     padding: 30em 0;
     color: white;
     text-transform: uppercase;
     font-size: .80em; 
-    
 }
 
 .home-hero span{
@@ -155,6 +155,7 @@ nav a:focus{
 /* Section2 *********************************/
 
  .button2{
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     z-index: 2;
     text-decoration: none;
@@ -182,7 +183,7 @@ h2{
     background-color: #111520a2;
     padding: .5em;
     margin-bottom: 1.3em;
-    font-family: 'Montserrat:300';
+    font-family: 'Montserrat', sans-serif;
     
     background-image: url(../css/texture.jpg);
     background-blend-mode: color-dodge;
@@ -229,6 +230,7 @@ h2{
 
 
 .column {
+    font-family: 'Montserrat', sans-serif;
     float: left;
     width: 33.33%;
     margin-top: -2rem;
@@ -258,7 +260,7 @@ h2{
     margin-top: .7em;
     font-size: 1.5rem;
     height: auto;
-    font-family: 'Montserrat:900';
+    font-family: 'Montserrat', sans-serif;
     letter-spacing: 3.3px;
 }
 
@@ -285,7 +287,7 @@ h2{
     top: 10px;
     right: 170px;
     background-color: #ffffff;
-    font-family: 'Montserrat:900';
+    font-family: 'Montserrat', sans-serif;
     font-weight: bolder;
 
     
@@ -327,14 +329,15 @@ footer{
 }
 
 [class^=col-]{
+    font-weight: 400;
+    font-size: 15px;
     float: left;
     padding: 0 .5eml;
 }
 
 
 .bold{
-    
-    font-family: 'Montserrat:300';
+    font-family: 'Montserrat', sans-serif;
 }
 
 .col-3{
